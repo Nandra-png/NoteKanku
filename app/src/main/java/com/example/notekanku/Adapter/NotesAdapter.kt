@@ -89,12 +89,7 @@ class NotesAdapter(private val context: Context, val listener: noteitemClickList
     fun randomColor() : Int{
 
         val list = ArrayList<Int>()
-        list.add(R.color.NoteColor1)
-        list.add(R.color.NoteColor2)
-        list.add(R.color.NoteColor3)
-        list.add(R.color.NoteColor4)
-        list.add(R.color.NoteColor5)
-        list.add(R.color.NoteColor6)
+        list.add(R.color.white)
 
         val seed = System.currentTimeMillis().toInt()
         val randomIndex = Random(seed).nextInt(list.size)
