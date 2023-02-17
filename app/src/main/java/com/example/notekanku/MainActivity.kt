@@ -157,4 +157,6 @@ class MainActivity : AppCompatActivity(), NotesAdapter.noteitemClickListener, Po
         }
         return false
     }
+
+
 }
