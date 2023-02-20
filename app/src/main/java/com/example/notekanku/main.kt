@@ -13,10 +13,12 @@ class main : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityMain2Binding.inflate(layoutInflater)
-        setContentView(R.layout.activity_main2)
+        val view = binding.root
+        setContentView(view)
 
         initDateNow()
     }
+
 
     private fun initDateNow(){
         var calendar = Calendar.getInstance().time
@@ -26,7 +28,6 @@ class main : AppCompatActivity() {
         binding.tvDate.text = formatDate
 
     }
-
 
 
 }
