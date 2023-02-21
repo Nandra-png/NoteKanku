@@ -8,11 +8,13 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.cardview.widget.CardView
 import androidx.recyclerview.widget.RecyclerView
+import com.example.notekanku.MainActivity
 import com.example.notekanku.R
+import com.example.notekanku.main
 import com.example.notekanku.model.Note
 import kotlin.random.Random
 
-class NotesAdapter(private val context: Context, val listener: noteitemClickListener) : RecyclerView.Adapter<NotesAdapter.NoteViewHolder>() {
+class NotesAdapter(private val context: Context, val listener: main) : RecyclerView.Adapter<NotesAdapter.NoteViewHolder>() {
 
     private val Noteslist = ArrayList<Note>()
     private val fullList = ArrayList<Note>()

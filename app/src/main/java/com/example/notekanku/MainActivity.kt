@@ -7,7 +7,6 @@ import android.os.Bundle
 import android.view.MenuItem
 import android.widget.LinearLayout
 import android.widget.PopupMenu
-import androidx.activity.result.contract.ActivityResultContract
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.widget.SearchView
 import androidx.cardview.widget.CardView
@@ -90,13 +89,6 @@ class MainActivity : AppCompatActivity(), NotesAdapter.noteitemClickListener, Po
 
         }
 
-        binding.fbAddNote.setOnClickListener {
-
-            val intent = Intent(this,AddNote::class.java)
-            getContent.launch(intent)
-
-
-        }
 
         binding.searchView.setOnQueryTextListener(object : SearchView.OnQueryTextListener{
             override fun onQueryTextSubmit(p0: String?): Boolean {
