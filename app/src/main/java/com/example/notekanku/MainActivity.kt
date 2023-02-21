@@ -70,7 +70,7 @@ class MainActivity : AppCompatActivity(), NotesAdapter.noteitemClickListener, Po
 
         binding.recycleView.setHasFixedSize(true)
         binding.recycleView.layoutManager = StaggeredGridLayoutManager(2, LinearLayout.VERTICAL)
-        adapter = NotesAdapter(this,this)
+//        adapter = NotesAdapter(this,this)
         binding.recycleView.adapter = adapter
 
         val getContent = registerForActivityResult(ActivityResultContracts.StartActivityForResult()){ result ->

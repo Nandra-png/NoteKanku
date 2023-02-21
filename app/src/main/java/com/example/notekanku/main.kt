@@ -112,27 +112,27 @@ class main : AppCompatActivity(), NotesAdapter.noteitemClickListener, PopupMenu.
 
         }
 
-        binding.searchView.setOnQueryTextListener(object : SearchView.OnQueryTextListener{
-            override fun onQueryTextSubmit(p0: String?): Boolean {
-
-                return false
-
-            }
-
-            override fun onQueryTextChange(newText: String?): Boolean {
-
-                if (newText != null){
-
-                    adapter.filterList(newText)
-
-                }
-
-                return true
-
-            }
-
-
-        })
+//        binding.searchView.setOnQueryTextListener(object : SearchView.OnQueryTextListener{
+//            override fun onQueryTextSubmit(p0: String?): Boolean {
+//
+//                return false
+//
+//            }
+//
+//            override fun onQueryTextChange(newText: String?): Boolean {
+//
+//                if (newText != null){
+//
+//                    adapter.filterList(newText)
+//
+//                }
+//
+//                return true
+//
+//            }
+//
+//
+//        })
 
 
     }
