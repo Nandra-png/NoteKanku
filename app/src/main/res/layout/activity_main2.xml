@@ -22,38 +22,40 @@
         android:id="@+id/tv_date"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="4dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="6dp"
         android:text="Loading Data.."
         android:textSize="13dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.06"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/textView" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fb_add_note"
-        android:layout_width="57dp"
-        android:layout_height="68dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="198dp"
+        android:layout_marginEnd="198dp"
+        android:layout_marginBottom="68dp"
         android:clickable="true"
         app:backgroundTint="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.054"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/ic_baseline_add_24"
         tools:ignore="SpeakableTextPresentCheck" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recycle_view"
-        android:layout_width="430dp"
-        android:layout_height="152dp"
-        android:layout_marginBottom="16dp"
+        android:layout_width="401dp"
+        android:layout_height="288dp"
+        android:layout_marginBottom="188dp"
         android:clickable="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.814"
+        app:layout_constraintHorizontal_bias="0.303"
         app:layout_constraintStart_toStartOf="parent"
         tools:listitem="@layout/list_item">
 
@@ -64,11 +66,25 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
+        android:layout_marginBottom="24dp"
         android:text="Notes"
         android:textColor="@color/black"
-        android:textSize="15dp"
+        android:textSize="20dp"
         app:layout_constraintBottom_toTopOf="@+id/recycle_view"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/Seemore"
+        android:layout_width="78dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="240dp"
+        android:layout_marginBottom="4dp"
+        android:background="@null"
+        android:text="See More >"
+        android:textColor="#3a86ff"
+        android:textSize="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/recycle_view"
+        app:layout_constraintStart_toEndOf="@+id/tv_date" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
