@@ -35,26 +35,23 @@
         android:id="@+id/fb_add_note"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="198dp"
-        android:layout_marginEnd="198dp"
-        android:layout_marginBottom="24dp"
+        app:layout_constraintTop_toBottomOf="@+id/recycle_view"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="25dp"
         android:clickable="true"
         app:backgroundTint="@color/white"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/ic_baseline_add_24"
-        tools:ignore="SpeakableTextPresentCheck" />
+        app:srcCompat="@drawable/ic_baseline_add_24" />
+
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recycle_view"
-        android:layout_width="402dp"
-        android:layout_height="426dp"
-        android:layout_marginBottom="96dp"
+        android:layout_width="370dp"
+        android:layout_height="427dp"
+        android:layout_marginBottom="100dp"
         android:clickable="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.307"
+        app:layout_constraintHorizontal_bias="0.39"
         app:layout_constraintStart_toStartOf="parent"
         tools:listitem="@layout/list_item">
 
@@ -73,17 +70,17 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/Seemore"
+        android:id="@+id/button_more"
         android:layout_width="78dp"
         android:layout_height="48dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginBottom="-9dp"
         android:background="@null"
         android:text="See More >"
         android:textColor="#3a86ff"
         android:textSize="10dp"
-        app:layout_constraintStart_toEndOf="@+id/textView2"
-        app:layout_constraintTop_toBottomOf="@+id/tv_date" />
+        app:layout_constraintBottom_toTopOf="@+id/recycle_view"
+        app:layout_constraintStart_toEndOf="@+id/textView2" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
