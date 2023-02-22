@@ -76,13 +76,14 @@
         android:id="@+id/Seemore"
         android:layout_width="78dp"
         android:layout_height="48dp"
-        android:layout_marginStart="40dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
         android:background="@null"
         android:text="See More >"
         android:textColor="#3a86ff"
         android:textSize="10dp"
-        app:layout_constraintStart_toEndOf="@+id/fb_add_note"
-        app:layout_constraintTop_toBottomOf="@+id/recycle_view" />
+        app:layout_constraintStart_toEndOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/tv_date" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
