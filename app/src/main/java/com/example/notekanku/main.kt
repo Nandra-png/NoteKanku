@@ -69,6 +69,13 @@ class main : AppCompatActivity(), NotesAdapter.noteitemClickListener, PopupMenu.
         }
 
         database = NoteDatabase.getDatabase(this)
+
+        binding.buttonMore.setOnClickListener{
+            val intent = Intent(this,MainActivity::class.java)
+            startActivity(intent)
+            finish()
+        }
+
     }
 
 
@@ -171,6 +178,7 @@ class main : AppCompatActivity(), NotesAdapter.noteitemClickListener, PopupMenu.
         }
         return false
     }
+
 
 
 

@@ -10,9 +10,8 @@
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_add_note.xml" value="0.177813720703125" />
         <entry key="app/src/main/res/layout/activity_calendar.xml" value="0.11944444444444445" />
-        <entry key="app/src/main/res/layout/activity_login.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.17779693603515628" />
-        <entry key="app/src/main/res/layout/activity_main2.xml" value="0.1549530029296875" />
+        <entry key="app/src/main/res/layout/activity_main2.xml" value="0.17002563476562502" />
         <entry key="app/src/main/res/layout/list_item.xml" value="0.16891251716060907" />
         <entry key="app/src/main/res/menu/pop_up_menu.xml" value="0.3880208333333333" />
       </map>
@@ -27,7 +26,7 @@
   <component name="VisualizationToolProject">
     <option name="state">
       <ProjectState>
-        <option name="scale" value="0.18910980224609386" />
+        <option name="scale" value="0.1" />
       </ProjectState>
     </option>
   </component>
