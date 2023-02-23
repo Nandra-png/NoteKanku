@@ -10,12 +10,11 @@
     <color name="abubang">#4A4F51</color>
 
 
-    <color name="NoteColor1">#FF6263</color>
-    <color name="NoteColor2">#24C4ed</color>
-    <color name="NoteColor3">#38cc77</color>
-    <color name="NoteColor4">#d9d55b</color>
-    <color name="NoteColor5">#318bd1</color>
-    <color name="NoteColor6">#d345d0</color>
+    <color name="NoteColor1">#FBF398</color>
+    <color name="NoteColor2">#98EFFB</color>
+    <color name="NoteColor3">#FB9898</color>
+    <color name="NoteColor4">#B898FB</color>
+    <color name="NoteColor5">#FBD398</color>
 
 
 </resources>
